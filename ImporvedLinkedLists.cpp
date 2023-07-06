@@ -222,11 +222,8 @@ public:
             return;
         }
         else
-        {
             std::cout << "ELEMENT/S \"" << value << "\" IS/ARE SUCCESFULLY DELETED" << std::endl << std::endl;
-            system("pause");
-        }
-
+ 
         while (current != nullptr)
         {
             if (current->data == value)
